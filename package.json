@@ -1,0 +1,18 @@
+{
+  "name": "app-alinode-agentx",
+  "version": "1.10.4",
+  "description": "alinode agentx",
+  "main": "app.js",
+  "scripts": {},
+  "keywords": [
+    "alinode"
+  ],
+  "publishConfig": {
+    "registry": "https://github.com/node-honeycomb/app-alinode-agentx"
+  },
+  "dependencies": {
+    "agentx": "1.10.4",
+    "commandx": "1.5.4"
+  },
+  "devDependencies": {}
+}
