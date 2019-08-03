@@ -1,6 +1,7 @@
 {
   "name": "app-alinode-agentx",
   "version": "1.10.4",
+  "build": 2,
   "description": "alinode agentx",
   "main": "app.js",
   "scripts": {},

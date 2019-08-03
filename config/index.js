@@ -13,6 +13,6 @@ module.exports = {
     // logdir: process.env.NODE_LOG_DIR || path.join(__dirname, 'logs'),
     logdir: process.env.NODE_LOG_DIR || '/tmp/',
     // 必填，commandx 路径，如果通过 package.json 打包应该在 node_modules/commandx
-    cmddir: path.join(__dirname, 'node_modules/commandx')
+    cmddir: path.dirname(require.resolve('commandx/package.json'))
   }
 };
