@@ -1,7 +1,7 @@
 {
   "name": "app-alinode-agentx",
-  "version": "1.10.4",
-  "build": 2,
+  "version": "1.10.7",
+  "build": 1,
   "description": "alinode agentx",
   "main": "app.js",
   "scripts": {},
@@ -12,7 +12,7 @@
     "registry": "https://github.com/node-honeycomb/app-alinode-agentx"
   },
   "dependencies": {
-    "agentx": "1.10.4",
+    "agentx": "1.10.7",
     "commandx": "1.5.4"
   },
   "devDependencies": {}
